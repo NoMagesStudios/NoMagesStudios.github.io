@@ -1,0 +1,4 @@
+Damage Formula Notes:
+
+Base Formula:
+(50+10*Level)*User.Atk/(1.5*Target.Def)*Potency

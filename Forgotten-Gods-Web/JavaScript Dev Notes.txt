@@ -1,0 +1,24 @@
+JavaScript Notes:
+Change window X spacing:
+-- Window_Message.prototype.newLineX
+-- Change margin after the : character.
+-- Line 4884
+-- Current spacing: 24
+
+Weapon Position
+-- RMMZ_Sprites
+-- Line 2743
+-- Sprite_Weapon.prototype.initMembers
+-- Modify this.anchor.x and this.anchor.y
+--- Current anchor: Default
+
+Weapon Sprite Size
+-- RMMZ_Sprites
+-- Line 2793
+-- Sprite_Weapon.prototype.updateFrame
+--- Current size: 216x144
+
+Less Transparent Menu Window:
+-- RMMZ_Scenes
+-- Line 474
+-- Scene_Title.prototype.createCommandWindow
