@@ -1,0 +1,63 @@
+[
+  {
+    "uid": "AlonaPassive",
+    "header": "Passives",
+    "tech_description": "Provides passive bonuses which include parameter bonuses and additional effects in combat.",
+    "icon": 0,
+    "bgimg": "",
+    "nodes": [
+      {
+        "technode": {
+          "uid": "Vit1",
+          "lane": 1,
+          "depth": 1,
+          "header": "Vitality I",
+          "tech_description": "Adds +10 Max HP.",
+          "bigNode": false,
+          "bgimg": "",
+          "parents": [],
+          "neededParents": 0,
+          "levelRequirement": 0,
+          "visibility": {
+            "switches": []
+          },
+          "costs": {
+            "gold": 10,
+            "jp": 0,
+            "items": [],
+            "weapons": [],
+            "armors": []
+          },
+          "onActivate": {
+            "switches": [],
+            "skills": [],
+            "commonevents": [],
+            "animation": {
+              "id": 0
+            },
+            "stats": {
+              "0": 10,
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0
+            },
+            "eval": {
+              "onActivate": "",
+              "onDeactivate": ""
+            }
+          }
+        }
+      }
+    ],
+    "animation": {
+      "id": 0
+    },
+    "hideGoldCost": false,
+    "hideJPCost": false,
+    "costItems": []
+  }
+]
